@@ -1,0 +1,45 @@
+ main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+  } 
+.credit-card {
+    background-color: #ff1e1ec5;
+    color: rgb(5, 5, 5);
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.842);
+    margin: 20px;
+  }
+  
+  .bank-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-number {
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .card-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+  
+  .card-info span {
+    display: block;
+  }
+  
+  .cardholder-name {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
